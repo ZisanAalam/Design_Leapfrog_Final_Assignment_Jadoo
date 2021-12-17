@@ -1,4 +1,9 @@
-
+/* body {
+    overflow: hidden;
+  } */
+.main-body{
+    width: 100%
+}
 .navbar{
     width: 100%;
 }
