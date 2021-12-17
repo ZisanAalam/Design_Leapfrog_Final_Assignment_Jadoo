@@ -1,5 +1,10 @@
+body{
+    background-color: #FDFDFD;
+    /* overflow: hidden; */
+}
 .main-body{
     width: 100%;
+    /* position: relative; */
 }
 /* .hero::before{
     content: url(/images/hero/Decore.png);
@@ -10,9 +15,6 @@
     
 } */
 
-/* body{
-    overflow: hidden;
-} */
 
 
 .navbar{
@@ -101,9 +103,9 @@
 .hero_btn{
     border: 1px solid #F1A501;
     background-color: #F1A501;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
     color: #FFFFFF;
-    width: 12rem;
+    width: 10rem;
     border-radius: 0.5rem;
     margin: 2rem auto;
 
@@ -129,6 +131,7 @@
 .hero_cta .hero_play a{
     text-decoration: none;
     font-size: 17px;
+    color:#686D77;
     font-family: 'Poppins', sans-serif;
 }
 .hero_cta .hero_play button:hover{
@@ -136,7 +139,9 @@
 }
 
 /*---------------------------- Services and destination ------------------------- */
-
+.services{
+    margin: 8rem 0;
+}
 .services, .destination{
     margin-top: 8rem;
     text-align: center;
@@ -155,7 +160,8 @@
     font-family: 'Poppins', sans-serif;
     /* font-weight: 18; */
     color: #5E6282;
-    margin-bottom: 0.6rem;
+    /* margin-bottom: 0.6rem; */
+    text-align: center;
 }
 .services_heading, .destination_heading{
     color: #14183E;
@@ -200,6 +206,7 @@
 /* ------------------ Book a trip ------------------------------ */
 
 .book-trip{
+
     margin-left: 2rem;
 
 }
@@ -216,11 +223,13 @@
     /* font-weight: bold; */
     /* font-size: 3.1rem; */
     font-size: 2rem;
+
 }
 
 .facilities{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: left;
 }
 .desc_heading{
     color: #5E6282;
@@ -229,12 +238,68 @@
     margin-bottom: 0.5rem;
 
 }
+
+.facilities-wrapper{
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    padding: 1rem;
+    float: left;
+}
+.facilities img{
+    margin-top: 1rem;
+}
 .facilities_desc{
     width: 80%;
     float: right;
     padding-right: 0.5rem;
-    line-height: 1;
+    line-height: 1rem;
     font-family: 'Poppins', sans-serif;
     color: #5E6282;
     font-size: 1rem;
+    /* border: 1px solid red; */
+}
+
+.book-trip_card{
+    width: 95%;
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    text-align: center;
+
+}
+
+
+/* .book-trip_card .card-heading{
+    margin-bottom: 1rem;
+} */
+
+.book-trip_card-heading{
+
+    font-family: 'Poppins', sans-serif;
+    color: #080809;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 1rem 0rem;
+
+}
+.book-trip_card-desc,.people-desc{
+    font-family: 'Poppins', sans-serif;
+    color: #84829A;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem 0rem;   
+}
+
+.book-trip_card .icons img{
+    padding-right: 2rem;
+    margin-bottom: 1rem;
+}
+.book-trip_card .building{
+    margin-right: 1rem;
+}
+.book-trip_card .heart{
+    float: right;
+    margin-right: 2rem;
 }

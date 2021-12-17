@@ -1,0 +1,175 @@
+@media(min-width:768px){
+
+    .hero-img-section{
+        margin-left: 6rem;
+    }
+    .hero-img-section{
+        /* float: right; */
+        
+        
+        
+    }
+   
+
+    .hero-img-section img{
+        /* width: 45%;
+        float: right; */
+        display: none;
+
+    }
+    .hero_text-block{
+        text-align: left;
+        width: 50%;
+        margin: 4rem 0 2rem 4rem;
+
+    }
+    .text-block_tagline{
+
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    .text-block_heading{
+        font-weight: bold;
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+    .text-block_desc{
+        font-size: 1.2rem;
+    }
+
+    .hero_cta .hero_btn, .hero_play{
+        float: left;
+        margin-left: 4rem;
+    }
+    .hero_play{
+        margin-top: 2rem;
+    }
+
+    /* ----------- Services ------------ */
+    
+    .services{
+        margin: 16rem 0;
+    }
+    .card-wrapper{
+      margin-top: 2rem;
+    }
+    .card{
+        width: 40%;
+        margin: 0 2rem;
+        float: left;
+        /* border: 1px solid red; */
+        
+    }
+
+    .destination{
+        clear: both;
+    }
+    .services::before{
+
+        right: 0rem;
+
+        width: 20%;
+    }
+    .card_weather{
+        margin-top: 2rem;
+    }
+
+    /*  -------------Destomatopm------------- */
+
+    .destination_card{
+        /* width: 90%; */
+        margin: 0 0;
+    }
+    .destination_card img{
+        width: 45%;
+        float: left;
+    }
+
+    .book-trip{
+        clear: both;;
+    
+    }
+    .facilities_desc{
+        margin-right: 5rem;
+    }
+}
+
+@media(min-width:990px){
+    .navbar .hamburger{
+        display: none;
+    }
+
+    .navbar ul.navbar-items{
+        width: auto;
+        display: inline-block;
+        margin-left: 2rem;
+    }
+
+    .navbar ul li{
+        float: left;
+        color : #212832;
+        font-weight: none;
+        font-size: 1.1rem;
+        padding: 0 0.8rem;
+    }
+
+   
+    .card-wrapper{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .card{
+        width: 18%;
+        margin: 0 1rem;
+
+
+        /* border: 1px solid red; */
+        
+    }
+    /* .card_flight{
+        margin-bottom: 2rem;
+    }
+    
+    .card_weather{
+        margin-left: 8rem;
+    } */
+
+    
+    .destination_card img{
+        width: 33%;
+        float: left;
+    }
+
+    /* -------------------facilitie--------- */
+    
+    .facilities-wrapper{
+        width:45%
+    }
+    .facilities_desc{
+        width: 85%;
+        margin-right: 0rem;
+    }
+
+.book-trip_card{
+    margin-top: -3rem;
+}
+
+
+.book-trip .heading{
+    width: 40%;
+    line-height: 4rem;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+.book-trip .msg{
+
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+}
