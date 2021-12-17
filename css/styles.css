@@ -1,6 +1,6 @@
-/* .main-body{
+.main-body{
     width: 100%;
-} */
+}
 /* .hero::before{
     content: url(/images/hero/Decore.png);
     background-repeat: no-repeat;
@@ -8,6 +8,10 @@
     right: -30rem;
     z-index: -1;
     
+} */
+
+/* body{
+    overflow: hidden;
 } */
 
 
@@ -131,9 +135,9 @@
     background-color: #f5856e;
 }
 
-/*---------------------------- Services------------------------- */
+/*---------------------------- Services and destination ------------------------- */
 
-.services{
+.services, .destination{
     margin-top: 8rem;
     text-align: center;
     line-height: 1.6;
@@ -147,13 +151,13 @@
     width: 20%;
 }
 
-.services_tagline{
+.services_tagline, .destination_tagline{
     font-family: 'Poppins', sans-serif;
     /* font-weight: 18; */
     color: #5E6282;
     margin-bottom: 0.6rem;
 }
-.services_heading{
+.services_heading, .destination_heading{
     color: #14183E;
     width: 90%;
     text-align: center;
@@ -182,3 +186,55 @@
     font-size: 1rem;
 }
 
+/* ---------------------------------------Destination ----------------------------------- */
+
+.destination_card{
+    /* width: 90%; */
+    margin: 0 auto;
+}
+
+.destination_card img{
+    width: 100%;
+}
+
+/* ------------------ Book a trip ------------------------------ */
+
+.book-trip{
+    margin-left: 2rem;
+
+}
+.book-trip .msg{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #5E6282;
+    padding: 1rem 0;
+}
+.book-trip .heading{
+    width: 80%;
+    color: #14183E;
+    /* font-weight: bold; */
+    /* font-size: 3.1rem; */
+    font-size: 2rem;
+}
+
+.facilities{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.desc_heading{
+    color: #5E6282;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+
+}
+.facilities_desc{
+    width: 80%;
+    float: right;
+    padding-right: 0.5rem;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-size: 1rem;
+}
