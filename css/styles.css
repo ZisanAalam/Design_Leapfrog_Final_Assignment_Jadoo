@@ -242,12 +242,11 @@ body{
 .facilities-wrapper{
     width: 100%;
     height: auto;
-    border: 2px solid red;
     padding: 1rem;
     float: left;
 }
 .facilities img{
-    margin-top: 1rem;
+    /* margin-top: 0.5rem; */
 }
 .facilities_desc{
     width: 80%;
@@ -302,4 +301,73 @@ body{
 .book-trip_card .heart{
     float: right;
     margin-right: 2rem;
+}
+
+/* --------- Testimonials --------------- */
+
+.testimonials{
+    margin: 4rem 0;
+    padding: 2rem;
+}
+.testimonial_tag{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #5E6282;
+    padding: 1rem 0;
+}
+.testimonials .saying{
+    color:#14183E;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.testimonials .comment_section{
+    /* width : 100%; */
+    margin: 0 auto;
+}
+.testimonials .comment_section img{
+    margin-top: 2rem;
+    float: left;
+}
+.testimonials .comment_section .comment_card {
+    float: left;
+    width: 60%;
+    margin-top: 6rem;
+    margin-left: 1rem;
+}
+.testimonials .comment_section .name{
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 27px;
+}
+.carrot{
+    clear: both;
+}
+
+.testimonials .comment_section .address{
+    font-family: 'Poppins', sans-serif;
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*  ------------- Logos ------------- */
+.logos{
+    width: 100%;
+    clear: both;
+    
+}
+
+.logo{
+    width: 40%;
+    height: 20vh;
+    padding: 1rem;
+    margin: 0 1rem 0 3rem; 
+    float: left;
+    
 }
