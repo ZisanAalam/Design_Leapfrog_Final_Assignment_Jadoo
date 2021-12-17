@@ -1,0 +1,71 @@
+
+.hero::before{
+    content: url(/images/hero/Decore.png);
+    /* background-image: url(/images/hero/Decore.png); */
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -30rem;
+    z-index: -1;
+    
+}
+
+
+.navbar{
+    padding: 2.5rem 2rem;
+
+}
+
+.logo-section{
+    float: left;
+}
+.hamburger{
+    float: right;
+    border: 1px solid rgb(230, 224, 224);
+    padding: 0.7rem;
+}
+
+/* .navbar-items{
+    clear: both;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar-items .items{
+    padding-bottom: 1rem;
+    
+}
+
+.navbar-items #item-7{
+    padding-bottom: 0rem;
+}
+.navbar-items .items a{
+    color : #212832;
+    text-decoration: none;
+} */
+
+.navbar ul{
+    display: none;
+    clear: both;
+    text-align: center;
+    list-style-type: none;
+    padding: 1rem;   
+}
+
+.navbar ul li{
+    padding-bottom: 1rem;
+}
+.navbar ul li:last-child{
+    padding-bottom: 0rem;
+}
+
+.navbar ul li a{
+    color : #212832;
+    text-decoration: none;
+}
+
+.navbar ul.show{
+    display: block;
+}
+
