@@ -1,5 +1,8 @@
 @media(min-width:768px){
 
+    .hero::before{
+        right: -20rem;
+    }
     .hero-img-section{
         margin-left: 6rem;
     }
@@ -127,6 +130,9 @@
 
 /* ----------------------------------------------------------- */
 @media(min-width:990px){
+    .hero::before{
+        right: -15rem;
+    }
     .navbar .hamburger{
         display: none;
     }
@@ -220,7 +226,7 @@
 .testimonials_title, .comment_section{
     float: left;
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .testimonials_title{
     padding: 2rem;
