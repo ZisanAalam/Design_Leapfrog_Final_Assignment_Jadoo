@@ -53,7 +53,15 @@ body{
     padding-bottom: 1rem;
     font-size: 1.1rem;
     font-weight: 600;
+    color: #212832;
+    font-family: 'Open Sans', sans-serif;
 
+}
+.navbar .signup-btn{
+    border: 1px solid #212832;
+    padding : 6px 12px;
+    background-color: transparent;
+    border-radius: 5px;
 }
 .navbar ul li:last-child{
     padding-bottom: 0rem;
