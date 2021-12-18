@@ -55,11 +55,11 @@
     }
     .card{
         width: 40%;
-        margin: 0 2rem;
+        margin: 1rem 2rem;
         float: left;
-        /* border: 1px solid red; */
         
     }
+
 
     .destination{
         clear: both;
@@ -70,11 +70,8 @@
 
         width: 20%;
     }
-    .card_weather{
-        margin-top: 2rem;
-    }
 
-    /*  -------------Destomatopm------------- */
+    /*  -------------Destination------------- */
 
     .destination_card{
         /* width: 90%; */
@@ -85,15 +82,50 @@
         float: left;
     }
 
+    /* ---------------Book a trip-------------- */
     .book-trip{
-        clear: both;;
+        clear: both;
     
     }
+  
     .facilities_desc{
-        margin-right: 5rem;
+        margin-right: 4rem;
+    }
+
+    /* ---------------------Logos----------------- */
+    .logos img{
+        width: 30%;
+    }
+
+    /* -----------------Footer---------------- */
+    .company_desc, .company, .contacts, .more{
+        float: left;
+    }
+    .company_desc p{
+        width: 60%;
+    }
+
+    .copyright,.outbounds{
+        clear: both;
+    }
+    .outbounds{
+       position: relative;
+       top:-8rem;
+    }
+
+    .company, .contacts, .more{
+        padding: 0 1rem;
     }
 }
 
+@media (min-width:864px) {
+    .outbounds{
+        position: static;
+ 
+     }
+}
+
+/* ----------------------------------------------------------- */
 @media(min-width:990px){
     .navbar .hamburger{
         display: none;
@@ -129,14 +161,7 @@
         /* border: 1px solid red; */
         
     }
-    /* .card_flight{
-        margin-bottom: 2rem;
-    }
     
-    .card_weather{
-        margin-left: 8rem;
-    } */
-
     
     .destination_card img{
         width: 33%;
@@ -153,23 +178,76 @@
         margin-right: 0rem;
     }
 
-.book-trip_card{
-    margin-top: -3rem;
-}
+
+    
 
 
-.book-trip .heading{
-    width: 40%;
-    line-height: 4rem;
-    font-weight: 700;
-    font-size: 50px;
-
-}
+    .book-trip_card{
+        width: 40%;
+        margin-top: -3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        /* border: 1px solid red; */
+        float: right;
+    }
+    
+    
+    .book-trip .heading{
+        width: 40%;
+        line-height: 4rem;
+        font-weight: 700;
+        font-size: 50px;
+    }
+    
 .book-trip .msg{
 
     font-weight: 600;
     font-size: 1.1rem;
     line-height: 1.8rem;
+
+}
+.trip-card_wrapper{
+    width: 40%;
+
 }
 
+
+/* ==================testimonials============== */
+.testimonials{
+    clear: both;
+
+}
+.testimonials_title, .comment_section{
+    float: left;
+    width: 50%;
+    border: 1px solid red;
+}
+.testimonials_title{
+    padding: 2rem;
+}
+.comment_section{
+    padding-left:1rem
+}
+.testimonials .comment_section .comment_card {
+    float: left;
+    width: 90%;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+/* ---------------------Logos----------------- */
+.logos img{
+    width: 18%;
+}
+
+/* -----------------------Footer-------------- */
+
+
+}
+
+@media(min-width:1130px){
+    .outbounds{
+        float: right;
+        margin-top: -9rem;
+    
+     }
 }
