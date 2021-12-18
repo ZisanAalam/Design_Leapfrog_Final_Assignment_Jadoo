@@ -544,3 +544,13 @@ input#emailId:focus{
     padding: 2rem auto;
 
 }
+
+.playstore{
+    margin-right: 2rem;
+}
+
+
+.outbounds a:hover img {
+    transform: scale(1.5);
+}
+
