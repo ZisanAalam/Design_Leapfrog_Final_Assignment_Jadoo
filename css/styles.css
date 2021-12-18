@@ -151,7 +151,7 @@ body{
 
 /*---------------------------- Services and destination ------------------------- */
 .services{
-    margin: 8rem 0;
+    padding: 8rem 0;
 }
 .services, .destination{
     margin-top: 8rem;
@@ -256,9 +256,9 @@ body{
     padding: 1rem;
     float: left;
 }
-.facilities img{
-    /* margin-top: 0.5rem; */
-}
+/* .facilities img{
+    margin-top: 0.5rem;
+} */
 .facilities_desc{
     width: 80%;
     float: right;
@@ -349,6 +349,16 @@ body{
     margin-top: 6rem;
     margin-left: 0.5rem;
 }
+.testimonials .comment_section .comment_card .comments {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
 .testimonials .comment_section .name{
     font-family: 'Poppins', sans-serif;
     color: #5E6282;
@@ -372,7 +382,7 @@ body{
 .logos{
     width: 100%;
     clear: both;
-    
+    margin: 4rem auto;
     padding: 4rem 0;
 
     text-align: center;
@@ -383,13 +393,7 @@ body{
     padding: 1rem;
 }
 
-/* .logo{
-    width: 40%;
-    height: 10vh; 
-    margin: 1rem 1rem;
-    float: left;
-    
-} */
+
 
 /* ------------------- Subscription----------------- */
 
@@ -400,6 +404,7 @@ body{
     background-color: #DFD7F9;
     text-align: center;
     margin-bottom: 4rem;
+    margin-top: 4rem;
     border-top-left-radius: 4rem;
 }
 .subscription::before{
@@ -439,10 +444,13 @@ body{
     border-radius: 10px;
 
 }
-input#emailId:focus {
+input#emailId:focus{
+    outline: none;
+}
+/* input#emailId:focus {
     background-image:none;
     text-indent:0px
-}
+} */
 
 .form .subscription_btn{
     background-color:#FF946D;
@@ -450,6 +458,10 @@ input#emailId:focus {
     border: none;
     border-radius: 10px;
     margin: 1rem auto;
+}
+
+.form button:hover{
+    background-color:#d46424;
 }
 
 
