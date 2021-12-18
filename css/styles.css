@@ -72,7 +72,7 @@ body{
     text-decoration: none;
 }
 .navbar ul li a:hover{
-    color: #DF6951;;
+    color: #DF6951;
 }
 
 .navbar ul.show{
@@ -553,4 +553,11 @@ input#emailId:focus{
 .outbounds a:hover img {
     transform: scale(1.5);
 }
+.footer ul li a{
+    color: #5E6282;
+    text-decoration: none;
+}
 
+.footer ul li a:hover{
+    color: #DF6951;
+}
