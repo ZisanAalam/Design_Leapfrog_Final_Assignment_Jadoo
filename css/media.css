@@ -216,6 +216,17 @@
         float: left;
     }
 
+    .destination_card.europe::after{
+        content: url(/images/destination/decor.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        /* right: -16rem;
+        top:35rem; */
+        /* top:100rem; */
+        right: 3rem;
+        z-index: -1;
+    }
+
     /* -------------------facilitie--------- */
     
     .facilities-wrapper{
